@@ -73,6 +73,8 @@ a {
   position: relative;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+
   height: calc(100vh - 90px);
   background-color: #e6f0ff;
 }
@@ -118,22 +120,19 @@ a {
 }
 
 /* Hero */
-.hero {
-  margin-top: 130px;
-}
 
-.hero .info {
+.hero-wrap .info {
   width: 51%;
 }
 
-.hero .sub-title {
+.hero-wrap .sub-title {
   font-size: 1.8rem;
   line-height: calc(1.5); /* 27px/18px */
   letter-spacing: 0.01rem;
   color: #687690;
 }
 
-.hero .title {
+.hero-wrap .title {
   margin-top: 8px;
   font-size: 6.2rem;
   font-weight: 700;
@@ -141,7 +140,7 @@ a {
   color: #000336;
 }
 
-.hero .desc {
+.hero-wrap .desc {
   margin-top: 30px;
   font-size: 1.8rem;
   font-weight: 400;
