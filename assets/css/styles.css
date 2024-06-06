@@ -6,6 +6,10 @@
   --primary-color: #0f1b4c;
 }
 
+html, body{
+ scroll-behavior: smooth;
+}
+
 html {
   /* mặc định 1rem = 16px */
   font-size: 62.5%; /* 1rem = 10px  */
